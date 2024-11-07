@@ -1,0 +1,15 @@
+.hola {
+    display: block;
+}
+
+
+.navbarstiled {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2em;
+    height: 4em;
+    background-color: green;
+    padding-right: 4em;
+    align-items: center
+}
