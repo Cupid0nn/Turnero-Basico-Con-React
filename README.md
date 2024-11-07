@@ -3,7 +3,7 @@
 ## Mateo Acierno
 
 - Tecnologias aplicadas
-  - React, typescript.
+  - JavaScript, Html, Css, React, typescript.
 
 ## User Stories
 
