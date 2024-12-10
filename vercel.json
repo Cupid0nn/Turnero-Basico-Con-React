@@ -4,7 +4,7 @@
         "src": "vite-project/package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "dist"
+          "distDir": "vite-project/dist"
         }
       },
       {
@@ -21,6 +21,16 @@
         "source": "/(.*)",
         "destination": "/vite-project/index.html"
       }
+    ],
+    "headers": [
+      {
+        "source": "/dist/**/*.js",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ]
+      }
     ]
   }
-  
