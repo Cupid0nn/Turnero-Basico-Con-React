@@ -1,48 +1,48 @@
-# Pagina de Gestoria de turnos PI
+# Página de Gestoría de Turnos PI
 
 ## Mateo Acierno
 
-- Tecnologias aplicadas
-  - JavaScript, Html, Css, React, typescript.
+### Tecnologías aplicadas
+- JavaScript, HTML, CSS, React, TypeScript.
 
 ## User Stories
 
-- Como usuario invitado
-  - Poder registrarse
-  - Poder visualizar toda la pagina
+- **Como usuario invitado**
+  - Poder registrarse.
+  - Poder visualizar toda la página.
 
-- Como usuario Registrado
-  - Poder cerrar sesion
-  - Poder loguearme
-  - poder sacar turno y visualizar los mismos
-    - Elejir fechas y hora / solo dias habiles / maximo sacar turno para 7 dias
-    - Limitar Horario de atencion: 6 a 19 hs, turno cada 15 min.
-    - Cancelar turnos / hasta un dia antes.
+- **Como usuario registrado**
+  - Poder cerrar sesión.
+  - Poder loguearme.
+  - Poder sacar turno y visualizar los mismos:
+    - Elegir fechas y hora / solo días hábiles / máximo sacar turno para 7 días.
+    - Limitar horario de atención: 6 a 19 hs, turno cada 15 min.
+    - Cancelar turnos / hasta un día antes.
 
-- Consideraciones
-  -Stock ilimitado
+### Consideraciones
+- Stock ilimitado.
 
-- XTRA CREDITS
-  - El Usuario logueado podra ponerse foto de perfil y cambiar la misma
-  - Tener un Usuario Administrador
-  - Que llegue un Mail una vez registrado
+### XTRA CREDITS
+- El usuario logueado podrá ponerse foto de perfil y cambiar la misma.
+- Tener un usuario administrador.
+- Que llegue un mail una vez registrado.
 
 ## UX/UI
 
-- Footer con info gral.
+- **Footer** con información general.
 
-- Navbar
-  - Info del usuario logueado/Perfil
-  - Visualizar turno: Fecha, Hora y Status
-  - Formulario de Turno
-    - Validaciones en tiempo real (REACT)
-    - Mantener Datos
-    - Habilitar el boton una vez los campos esten validados
-    - Restringir oferta de fechas y horas
+- **Navbar**
+  - Información del usuario logueado / perfil.
+  - Visualizar turno: fecha, hora y estado.
+  - Formulario de turno:
+    - Validaciones en tiempo real (React).
+    - Mantener datos.
+    - Habilitar el botón una vez los campos estén validados.
+    - Restringir oferta de fechas y horas.
 
-- home
-  - Mostrar informacion del lugar o pagina
+- **Home**
+  - Mostrar información del lugar o página.
 
-## Diagrama Entidad / Relacion
+## Diagrama Entidad / Relación
 
-<img src="./front/assets/Flowcharts.png"/>
+![Diagrama ER](./front/assets/Flowcharts.png)
