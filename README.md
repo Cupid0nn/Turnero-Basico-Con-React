@@ -24,14 +24,14 @@ npm start
 
 ```
 
-🛠 Tecnologías
+## 🛠 Tecnologías
 Frontend: React, TypeScript, HTML, CSS
 
 Backend: Node.js (opcional según implementación)
 
 Autenticación: Basada en usuarios registrados
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 > [!IMPORTANT]
 
 Registro e inicio de sesión para usuarios
@@ -48,7 +48,7 @@ Administrador con capacidades avanzadas
 
 Notificaciones por email al registrarse
 
-📖 Validaciones UX/UI
+## 📖 Validaciones UX/UI
 > [!TIP] El sistema incluye:
 
 Validaciones en tiempo real para formularios.
@@ -57,7 +57,7 @@ Restricciones de fechas y horas para turnos.
 
 Personalización de perfil con foto y detalles del usuario.
 
-🏗 Roadmap
+## 🏗 Roadmap
 > [!IMPORTANT]
 
 Futuras mejoras:
@@ -68,7 +68,7 @@ Mejora en la experiencia del usuario con animaciones.
 
 Incorporación de estadísticas y reportes para administradores.
 
-📬 Contacto
+## 📬 Contacto
 Nombre: Mateo Laureano Acierno
 
 Correo: malaucierno@gmail.com
@@ -77,7 +77,7 @@ LinkedIn: Mateo Acierno
 
 Portafolio: portfolio
 
-📜 Licencia
+## 📜 Licencia
 Este proyecto está bajo la licencia MIT.
 
 Redes Sociales
