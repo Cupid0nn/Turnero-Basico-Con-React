@@ -1,48 +1,92 @@
 # Página de Gestoría de Turnos PI
 
-## Mateo Acierno
+# 🗓️ Plataforma de Gestión de Turnos
 
-### Tecnologías aplicadas
-- JavaScript, HTML, CSS, React, TypeScript.
+## 📌 Descripción
 
-## User Stories
+> [!IMPORTANT] *Página de Gestoría de Turnos PI* es una plataforma web diseñada para gestionar turnos de forma eficiente, con autenticación de usuarios y diversas funcionalidades personalizables. Permite a los usuarios registrarse, iniciar sesión, visualizar sus turnos y organizarlos según sus necesidades.
 
-- **Como usuario invitado**
-  - Poder registrarse.
-  - Poder visualizar toda la página.
+## 📦 Instalación
 
-- **Como usuario registrado**
-  - Poder cerrar sesión.
-  - Poder loguearme.
-  - Poder sacar turno y visualizar los mismos:
-    - Elegir fechas y hora / solo días hábiles / máximo sacar turno para 7 días.
-    - Limitar horario de atención: 6 a 19 hs, turno cada 15 min.
-    - Cancelar turnos / hasta un día antes.
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-### Consideraciones
-- Stock ilimitado.
+> [!TIP]
 
-### XTRA CREDITS
-- El usuario logueado podrá ponerse foto de perfil y cambiar la misma.
-- Tener un usuario administrador.
-- Que llegue un mail una vez registrado.
+### Clonar el repositorio
 
-## UX/UI
+```bash
+git clone https://github.com/tu-usuario/gestoria-turnos.git 
+cd gestoria-turnos
 
-- **Footer** con información general.
+npm install
 
-- **Navbar**
-  - Información del usuario logueado / perfil.
-  - Visualizar turno: fecha, hora y estado.
-  - Formulario de turno:
-    - Validaciones en tiempo real (React).
-    - Mantener datos.
-    - Habilitar el botón una vez los campos estén validados.
-    - Restringir oferta de fechas y horas.
+npm start
 
-- **Home**
-  - Mostrar información del lugar o página.
+```
 
-## Diagrama Entidad / Relación
+🛠 Tecnologías
+Frontend: React, TypeScript, HTML, CSS
 
-![Diagrama ER](./front/assets/Flowcharts.png)
+Backend: Node.js (opcional según implementación)
+
+Autenticación: Basada en usuarios registrados
+
+🚀 Funcionalidades
+> [!IMPORTANT]
+
+Registro e inicio de sesión para usuarios
+
+Gestión de turnos: Crear, visualizar y cancelar turnos
+
+Restricciones de horario: Atención de 6 a 19 hs, turnos cada 15 minutos
+
+Máximo plazo de anticipación: Hasta 7 días
+
+Cancelación: Hasta 1 día antes del turno
+
+Administrador con capacidades avanzadas
+
+Notificaciones por email al registrarse
+
+📖 Validaciones UX/UI
+> [!TIP] El sistema incluye:
+
+Validaciones en tiempo real para formularios.
+
+Restricciones de fechas y horas para turnos.
+
+Personalización de perfil con foto y detalles del usuario.
+
+🏗 Roadmap
+> [!IMPORTANT]
+
+Futuras mejoras:
+
+Integración con APIs externas.
+
+Mejora en la experiencia del usuario con animaciones.
+
+Incorporación de estadísticas y reportes para administradores.
+
+📬 Contacto
+Nombre: Mateo Laureano Acierno
+
+Correo: malaucierno@gmail.com
+
+LinkedIn: Mateo Acierno
+
+Portafolio: portfolio
+
+📜 Licencia
+Este proyecto está bajo la licencia MIT.
+
+Redes Sociales
+Sigue nuestras redes para mantenerte informado:
+
+LinkedIn
+
+Portafolio
+
+GitHub
+
+Correo
